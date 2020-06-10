@@ -252,7 +252,7 @@ while True:
             os.startfile(os.path.join(music_dir,songs[0])) #opens the folder and plays the first song
 
         #code to send email
-        elif 'email to ark' in text:
+        elif 'email to' in text:
             try:
                 speak("what should I say?")
                 content = get_audio()
